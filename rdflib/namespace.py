@@ -458,8 +458,8 @@ class NamespaceManager(object):
 # * Characters '-' and '.' are allowed as name characters.
 
 
-NAME_START_CATEGORIES = ["Ll", "Lu", "Lo", "Lt", "Nl"]
-NAME_CATEGORIES = NAME_START_CATEGORIES + ["Mc", "Me", "Mn", "Lm", "Nd"]
+NAME_START_CATEGORIES = ["Ll", "Lu", "Lo", "Lt", "Nl", "Nd"]
+NAME_CATEGORIES = NAME_START_CATEGORIES + ["Mc", "Me", "Mn", "Lm"]
 ALLOWED_NAME_CHARS = [u"\u00B7", u"\u0387", u"-", u".", u"_"]
 
 
